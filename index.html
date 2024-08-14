@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="css/syle.css">
+    <title> Billing Form</title>
+</head>
+<body>
+  <div class="container">
+    <form action="https://formsubmit.co/amooabdulmueez1@gmail.com" method="POST">
+      <div class="row">
+          
+          <div class="column">
+             <h2 class="title">Billing Address</h2>
+             
+             <div class="input-box">
+                 <span>First Name:</span>
+                 <input type="text"name="First Name" placeholder="Mike Smith" required>
+             </div>
+             
+             <div class="input-box">
+                 <span>Email Address:</span>
+                 <input type="email" name="Email" placeholder="example@email.com" required>
+             </div>
+             
+             <div class="input-box">
+                 <span>Address :</span>
+                 <input type="text" name="Address" placeholder="Room-Street-Locality" required>
+             </div>
+             
+             <div class="input-box">
+                 <span>City: </span>
+                 <input type="text" name="City" placeholder="Lekki" required>
+             </div>
+           <div class="flex">
+             <div class="input-box">
+                 <span>State: </span>
+                 <input type="text" name="State" placeholder="Lagos State" required>
+          </div>
+          
+             
+             <div class="input-box">
+                 <span>Zip-code</span>
+                 <input type="number" name="Zip-Code" placeholder="123 456" required>
+             </div>                            
+          </div>
+         </div>
+         
+         
+          <div class="column">
+             <h2 class="title">Payment</h2>
+             
+             <div class="input-box">
+                 <span>Card Accepted:</span>
+                 <img src="img/hotx612.jpg">    
+             </div>
+             
+             <div class="input-box">
+                 <span>Name on card:</span>
+                 <input type="text" name="Card Name" placeholder="Mr Mike Smith" required>
+             </div>
+             
+             <div class="input-box">
+                 <span>Credit Card Number: </span>
+                 <input type="number" name="Card Number" placeholder="1111 2222 3333 4444" maxlength="16" required>
+             </div>
+             
+             <div class="input-box">
+                 <span>Exp. Month:</span>
+                 <select name="Expiry Month" id="input" class="form-control" required="required">
+                    <option value="*_Select" selected disabled>Select</option>
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                </select>
+
+                
+            </div>
+            <div class="flex"> 
+                <div class="input-box">
+                    <span>Exp. Year: </span>
+                 <input type="number" name="Expire Year" maxlength="4" placeholder="2026" required>
+             </div>
+             
+             <div class="input-box">
+                 <span> Cvv: </span>
+                 <input type="number" name="CVV" maxlength="3" placeholder="123" required>
+          
+         </div>                            
+         </div>                                    
+      </div>
+      
+      <button type="submit" class="btn"> Submit </button>
+      
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    parding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: 200vh;
+    justify-content: center;
+    align-items: center;
+/*    display: inline-block;*/
+    
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+    background: silver;
+    padding: 25px;
+}
+
+.container form{
+    width: 700px;
+    padding: 40px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+form .row{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.row .column{
+    flex: 1 1 250px;
+}
+
+.column .title{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.column .input-box{
+    margin: 15px 0px;
+}
+
+.input-box span {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.input-box input,
+.input-box select {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    
+}
+
+.flex {
+    display: flex;
+    gap: 15px;
+}
+
+.flex .input-box{
+    margin-top: 5px;
+}
+
+
+.input-box img{
+    height: 40px;
+    width: 100%;
+    margin-top: 5px;
+    filter: dropshadow(0 0 2px #ccc);
+    
+}
+
+form .btn{
+    width: 100%;
+    padding: 10px;
+    background: #8175d3;
+    font-size: 20px;
+    color: white;
+    border: 1px Solid #ccc;
+    margin-top: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .8s;
+}
+
+form .btn:hover{
+    background: #6a5acd;
+}
